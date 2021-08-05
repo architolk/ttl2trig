@@ -12,7 +12,7 @@ Usage:
 
 This example query will transfer all resource to individual graphs with the same URI as the resource itself
 
-'''
+```
 DELETE {
   GRAPH <urn:input> {
     ?s?p?o
@@ -28,4 +28,4 @@ WHERE {
     ?s?p?o
   }
 }
-'''
+```
